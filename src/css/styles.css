@@ -1,0 +1,6 @@
+html, body {
+    /* background-color: #f1f1f1; */
+    background: rgb(167,20,18);
+    background: linear-gradient(90deg, rgba(167,20,18,1) 0%, rgba(222,27,24,1) 35%, rgba(229,73,70,1) 100%);
+    margin: 0px;
+}
