@@ -39,7 +39,7 @@ export default {
 <style scoped>
     /* Pokemon Picture */
     .pokemon-container {
-        height: 320px;
+        height: 300px;
         display:flex;
         justify-content: center;
         align-items: center;
@@ -47,10 +47,10 @@ export default {
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
         background-position: center;
-        background-size: 320px;
+        background-size: 300px;
     }
     img {
-        height: 200px;
+        height: 180px;
         position: absolute;
         /* right: 32%; */
         user-select: none;

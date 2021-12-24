@@ -31,6 +31,7 @@ export default {
   ul {
       list-style-type: none;
       padding: 0;
+      margin-bottom: 0;
   }
 
   li {
@@ -51,6 +52,7 @@ export default {
   .options-container {
       display: flex;
       justify-content: center;
+
   }
 
 </style>
