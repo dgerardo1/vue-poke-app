@@ -3,7 +3,7 @@ import pokemonApi from "../api/pokemonApi";
 /*************************************
  * CREA UN ARREGLO DE 650 POSICIONES *
  *************************************/
-const getPokemons = () => {
+export const getPokemons = () => {
     
     const pokemonsArr = Array.from( Array(650) )
     return pokemonsArr.map( ( _ , index) => index + 1 )
@@ -27,7 +27,7 @@ const getPokemonOptions = async() => {
 /******************************************************************************
  * OBTIENE LOS NOMBRES DE LOS POKEMONES BASADOS EN LOS NÚMEROS (IDS) ENVIADOS *
  ******************************************************************************/
-const getPokemonNames = async( [a,b,c,d] = [] ) => {
+export const getPokemonNames = async( [a,b,c,d] = [] ) => {
 
     // const resp = await pokemonApi.get(`/2`)
     // console.log(resp.data.name, resp.data.id )
